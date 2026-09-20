@@ -86,7 +86,7 @@
     .section{padding:42px 0 0}.section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid #ECEEF2;padding-bottom:12px;margin-bottom:22px}.section-title h2{font-size:22px;margin:0;font-weight:900;letter-spacing:-.04em}.section-title p{margin:5px 0 0;font-size:12px;color:var(--text-muted);font-weight:700}.section-title a{font-size:12px;color:var(--primary-red);font-weight:900}
 
     /* Insurance logos */
-    .insurance-panel{border:1px solid #E7E8EB;border-radius:9px;background:#fff;box-shadow:var(--soft-shadow);padding:18px 20px;margin-bottom:28px}.insurance-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.insurance-head h3{margin:0;font-size:18px;font-weight:900}.insurance-head a{font-size:12px;color:var(--primary-red);font-weight:900}.insurance-logos{height:64px;display:grid;grid-template-columns:30px repeat(7,1fr) 30px;gap:18px;align-items:center;text-align:center}.insurance-logos .logo-text{font-size:22px;font-weight:900;color:#1E64B7}.insurance-logos .aetna{color:#8C3998}.insurance-logos .axa{background:#173B8F;color:#fff;padding:7px 6px;justify-self:center}.insurance-logos .nas{color:#1C69AA}.insurance-logos .saico{color:#15856D}.insurance-logos .now{color:#263776}.insurance-arrow{color:#777;font-size:20px}
+    .insurance-panel{border:1px solid #E7E8EB;border-radius:9px;background:#fff;box-shadow:var(--soft-shadow);padding:18px 20px;margin-bottom:28px}.insurance-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.insurance-head h3{margin:0;font-size:18px;font-weight:900}.insurance-head a{font-size:12px;color:var(--primary-red);font-weight:900}.insurance-logos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.insurance-card{height:128px;border:1px solid #E1E4E9;border-radius:10px;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:14px;text-align:center}.insurance-card img{display:block;width:100%;height:64px;object-fit:contain}.insurance-card b{font-size:12px;color:#111827;font-weight:900}.insurance-card .text-logo{height:64px;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;color:#2368A2;letter-spacing:.02em}
 
     /* Find insurance */
     .find-insurance{background:#F6F6F7;border-radius:9px;display:grid;grid-template-columns:160px 1fr 170px 170px 170px 115px;gap:10px;align-items:center;padding:12px;margin-bottom:28px}.find-title{font-size:18px;color:var(--primary-red);font-weight:900}.field{height:40px;border:1px solid #DEDFe4;border-radius:6px;background:#fff;display:flex;align-items:center;gap:9px;padding:0 13px;color:#8A9099;font-size:11px;font-weight:700;min-width:0}.field input,.field select{border:0;outline:0;background:transparent;width:100%;font-size:11px;color:#686F7B;font-weight:700;appearance:none}.field.select::after{content:"⌄";font-size:16px;color:#777;margin-left:auto}.find-insurance .btn{height:40px}
@@ -110,8 +110,8 @@
     .chat-fab{position:fixed;right:18px;bottom:20px;width:52px;height:52px;border-radius:50%;border:4px solid #fff;background:var(--primary-red);box-shadow:0 10px 24px rgba(227,6,19,.35);z-index:61;display:grid;place-items:center}.chat-fab .icon{stroke:#fff;width:25px;height:25px}
     .chat-panel{position:fixed;right:18px;bottom:84px;width:min(360px,calc(100vw - 36px));background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:var(--shadow);z-index:100;display:none;overflow:hidden}.chat-panel.show{display:block}.chat-head{background:var(--primary-red);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}.chat-head b{font-size:14px}.chat-close{border:0;background:transparent;color:#fff;font-size:20px}.chat-body{padding:14px;display:grid;gap:10px}.message{padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.45}.message.bot{background:#F5F6F8}.chat-actions{display:grid;gap:8px;margin-top:4px}.chat-actions a{border:1px solid #ECEEF2;border-radius:10px;padding:10px 12px;font-size:12px;font-weight:900;color:#22242C}.chat-actions a:hover{background:var(--primary-red-soft);color:var(--primary-red);border-color:var(--border-red-soft)}
 
-    @media(max-width:1120px){.container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:66%}.hero-benefits{grid-template-columns:1fr}.find-insurance{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.eligibility-grid{grid-template-columns:1fr}.benefit-grid{grid-template-columns:repeat(2,1fr)}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:720px){.site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero::after{width:100%;opacity:.18}.hero-content{width:100%;padding:42px 0}.hero-content h1{font-size:38px}.insurance-logos{grid-template-columns:1fr 1fr;gap:10px;height:auto}.insurance-arrow{display:none}.find-insurance,.service-grid,.form-grid,.benefit-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.section-title{display:block}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}}
+    @media(max-width:1120px){.container{width:min(var(--container),calc(100% - 36px))}.main-nav{display:none}.mobile-menu{display:block}.hero-content{width:66%}.hero-benefits{grid-template-columns:1fr}.insurance-logos{grid-template-columns:repeat(3,1fr)}.find-insurance{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.eligibility-grid{grid-template-columns:1fr}.benefit-grid{grid-template-columns:repeat(2,1fr)}.strip-inner{height:auto;padding:14px 0;grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){.site-header{height:auto}.header-inner{padding:12px 0;flex-wrap:wrap}.brand img{width:160px}.header-actions{margin-left:0;width:100%;justify-content:space-between;order:3}.whatsapp-link,.header-tools{display:none}.hero::after{width:100%;opacity:.18}.hero-content{width:100%;padding:42px 0}.hero-content h1{font-size:38px}.insurance-logos{grid-template-columns:1fr 1fr;gap:10px}.insurance-card{height:112px}.insurance-card img,.insurance-card .text-logo{height:54px}.find-insurance,.service-grid,.form-grid,.benefit-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.section-title{display:block}.strip-inner{grid-template-columns:1fr}.footer-inner{height:auto;padding:18px 0;display:grid;text-align:center}.footer-links{justify-content:center;gap:16px;flex-wrap:wrap}.socials{justify-content:center}.chat-card{display:none}}
   </style>
   <link rel="stylesheet" href="assets/global-fix.css">
 </head>
@@ -179,10 +179,25 @@
     </section>
 
     <section class="section container" aria-label="Insurance partners">
-      <div class="insurance-panel">
-        <div class="insurance-head"><h3>We accept insurance from leading providers</h3><a href="insurance.html#all-insurers">View all insurers</a></div>
+      <div class="insurance-panel" id="all-insurers">
+        <div class="insurance-head"><h3>We accept insurance from leading providers</h3><a href="#all-insurers">View all insurers</a></div>
         <div class="insurance-logos">
-          <span class="insurance-arrow">‹</span><span class="logo-text">Daman</span><span class="logo-text aetna">♥aetna</span><span class="logo-text axa">AXA</span><span class="logo-text">orient</span><span class="logo-text nas">NAS</span><span class="logo-text saico">SAICO</span><span class="logo-text now">NOW Health</span><span class="insurance-arrow">›</span>
+          <div class="insurance-card"><img src="assets/insurance/thiqa.svg" alt="THIQA logo"><b>THIQA</b></div>
+          <div class="insurance-card"><img src="assets/insurance/daman.svg" alt="DAMAN logo"><b>DAMAN</b></div>
+          <div class="insurance-card"><img src="assets/insurance/inayah.png" alt="INAYAH logo"><b>INAYAH</b></div>
+          <div class="insurance-card"><img src="assets/insurance/mednet.svg" alt="MEDNET logo"><b>MEDNET</b></div>
+          <div class="insurance-card"><img src="assets/insurance/nextcare.svg" alt="NEXTCARE logo"><b>NEXTCARE</b></div>
+          <div class="insurance-card"><img src="assets/insurance/adnic.png" alt="ADNIC logo"><b>ADNIC</b></div>
+          <div class="insurance-card"><img src="assets/insurance/ngi.png" alt="NGI logo"><b>NGI</b></div>
+          <div class="insurance-card"><img src="assets/insurance/dubai-insurance.png" alt="Dubai Insurance logo"><b>DUBAI INS</b></div>
+          <div class="insurance-card"><img src="assets/insurance/fmc.png" alt="FMC logo"><b>FMC</b></div>
+          <div class="insurance-card"><img src="assets/insurance/oman.jpg" alt="Oman Insurance logo"><b>OMAN</b></div>
+          <div class="insurance-card"><img src="assets/insurance/nas.svg" alt="NEURON logo"><b>NEURON</b></div>
+          <div class="insurance-card"><img src="assets/insurance/nas.svg" alt="NAS logo"><b>NAS</b></div>
+          <div class="insurance-card"><img src="assets/insurance/saico.png" alt="SAICO logo"><b>SAICO</b></div>
+          <div class="insurance-card"><img src="assets/insurance/almadallah.svg" alt="Almadallah logo"><b>ALMADALLAH</b></div>
+          <div class="insurance-card"><img src="assets/insurance/axa.png" alt="AXA logo"><b>AXA</b></div>
+          <div class="insurance-card"><img src="assets/insurance/ecare.avif" alt="E-Care logo"><b>E-CARE</b></div>
         </div>
       </div>
 
@@ -202,7 +217,7 @@
         <a class="service-card" href="pre-approval.html"><div><svg class="icon icon-md"><use href="#i-clipboard"/></svg><h3>Pre-Approval Support</h3><p>We help you get approval before your treatment.</p></div><span>Learn More →</span></a>
         <a class="service-card" href="#billing"><div><svg class="icon icon-md"><use href="#i-bill"/></svg><h3>Billing Enquiries</h3><p>Questions about your bill? We’re happy to help.</p></div><span>Contact Billing →</span></a>
         <a class="service-card" href="health-packages.html"><div><svg class="icon icon-md"><use href="#i-coin"/></svg><h3>Self-Pay Option</h3><p>Affordable care with transparent pricing.</p></div><span>View Self-Pay Packages →</span></a>
-        <a class="service-card" href="insurance.html#eligibility"><div><svg class="icon icon-md"><use href="#i-umbrella"/></svg><h3>Coverage Assistance</h3><p>Understand your benefits and coverage.</p></div><span>Get Assistance →</span></a>
+        <a class="service-card" href="coverage-assistance.html"><div><svg class="icon icon-md"><use href="#i-umbrella"/></svg><h3>Coverage Assistance</h3><p>Understand your benefits and coverage.</p></div><span>Get Assistance →</span></a>
       </div>
     </section>
 
